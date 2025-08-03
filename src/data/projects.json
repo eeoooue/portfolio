@@ -9,24 +9,6 @@
     "visible": false
   },
   {
-    "href": "https://github.com/eeoooue/venn-challenge-24-25/tree/main",
-    "imageSrc": "assets/project-thumbs/venn-thumb.jpg",
-    "alt": "Venn Challenge Thumb",
-    "heading": "Coral Diversity at Reef Sites",
-    "caption": "A Kaggle competition I hosted using a synthetic dataset.",
-    "featured": false,
-    "visible": false
-  },
-  {
-    "href": "https://github.com/eeoooue/venn-challenge-24-25/tree/main",
-    "imageSrc": "assets/project-thumbs/venn-thumb.jpg",
-    "alt": "Venn Challenge Thumb",
-    "heading": "Heads or Tails?",
-    "caption": "A Kaggle competition I hosted, presenting a deliberately imbalanced image dataset.",
-    "featured": false,
-    "visible": false
-  },
-  {
     "href": "https://github.com/eeoooue/venn-challenge-24-25",
     "imageSrc": "assets/project-thumbs/venn-thumb.jpg",
     "alt": "Venn Challenge Thumb",
@@ -81,13 +63,22 @@
     "visible": true
   },
   {
-    "href": "https://eeoooue.github.io/simulated-annealing/",
-    "imageSrc": "assets/project-thumbs/patterns-thumb.png",
+    "href": "https://github.com/eeoooue/Boggle",
+    "imageSrc": "assets/project-thumbs/boggle-thumb.png",
     "alt": "Boggle",
     "heading": "Boggle",
     "caption": "The classic word-finding game, implemented as a WPF application using the MVVM architecture pattern.",
     "featured": false,
-    "visible": false
+    "visible": true
+  },
+  {
+    "href": "https://github.com/eeoooue/Chess",
+    "imageSrc": "assets/project-thumbs/chess-thumb.png",
+    "alt": "Chess",
+    "heading": "Chess",
+    "caption": "An implementation of chess as a static web app.",
+    "featured": false,
+    "visible": true
   },
   {
     "href": "https://github.com/eeoooue/Tempo-Tapper",
@@ -109,11 +100,11 @@
   },
   {
     "href": "https://github.com/eeoooue/Tic-Tac-Toe",
-    "imageSrc": "assets/project-thumbs/patterns-thumb.png",
+    "imageSrc": "assets/project-thumbs/tictactoe-thumb.png",
     "alt": "Tic-Tac-Toe",
     "heading": "Tic-Tac-Toe",
     "caption": "Tic-Tac-Toe game logic and CPU opponents, with front ends in WPF, WinForms and .NET MAUI.",
     "featured": false,
-    "visible": false
+    "visible": true
   }
 ]
