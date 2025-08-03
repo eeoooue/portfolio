@@ -1,0 +1,100 @@
+---
+import ImageBubble from "../components/ImageBubble.astro";
+---
+
+<div class="profile-section">
+    <div class="profile-img" style="margin: 42px 24px">
+        <ImageBubble
+            src="/assets/begonia-bright.png"
+            alt="My profile picture"
+            size="280px"
+        />
+    </div>
+
+    <div class="profile-text-card">
+        <div class="bio-container">
+            <h2 style="margin: 12px 0px">Peter Moorhouse</h2>
+            Computer Science graduate with a keen interest in software design and
+            a developing skillset in machine learning and artificial intelligence. Passionate about visual communication, from data analytics to solution architecture.
+        </div>
+
+        <h4 style="margin: 12px 4px">Technologies</h4>
+
+        <div class="technologies-tags-container">
+            <ul>
+                <li>ASP.NET</li>
+                <li>Astro</li>
+                <li>Azure</li>
+                <li>Blazor</li>
+                <li>C++</li>
+                <li>C#</li>
+                <li>Dart</li>
+                <li>Docker</li>
+                <li>JavaScript</li>
+                <li>Jupyter</li>
+                <li>Flask</li>
+                <li>Flutter</li>
+                <li>Git</li>
+                <li>MySQL</li>
+                <li>Python3</li>
+                <li>PyTorch</li>
+                <li>R</li>
+                <li>Selenium</li>
+                <li>SQLite3</li>
+                <li>TensorFlow</li>
+                <li>TypeScript</li>
+                <li>WPF</li>
+                <li>.NET MAUI</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+    .profile-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 8vh;
+        margin-bottom: 4vh;
+        flex-wrap: wrap;
+    }
+
+    .bio-container{
+        margin: 4px 4px;
+    }
+
+    .technologies-tags-container ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .technologies-tags-container ul li {
+        background-color: #ddd;
+        margin: 4px 4px;
+        border-radius: 8px;
+        padding: 4px 10px;
+    }
+
+    .profile-img {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .profile-text-card {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        width: 540px;
+    }
+
+    .profile-media-links {
+        display: flex;
+        flex-direction: row;
+    }
+</style>
