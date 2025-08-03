@@ -1,0 +1,127 @@
+---
+import ImageBubble from "../components/ImageBubble.astro";
+---
+
+<div class="profile-section">
+    <div class="profile-img">
+        <ImageBubble
+            src="/assets/begonia-soft.png"
+            alt="My profile picture"
+            size="300px"
+        />
+    </div>
+
+    <div class="profile-text-card">
+        <div id="personal-details-container">
+            <h4 style="margin: 8px 0px">Personal Details</h4>
+            <div class="vertical-attribute-list">
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-user"></i></span
+                        >Peter Moorhouse
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope"></i></span
+                        >pdmoorhouse@gmail.com
+                    </li>
+                    <li>
+                        <span class="icon"
+                            ><i class="fa fa-location-dot"></i></span
+                        >Loughborough, UK
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="platforms-container">
+            <h4 style="margin: 8px 0px">Platforms</h4>
+            <div class="vertical-attribute-list">
+                <ul>
+                    <span
+                        >GitHub: <a href="https://www.github.com/eeoooue"
+                            >eeoooue</a
+                        ></span
+                    >
+                </ul>
+                <ul>
+                    <span
+                        >Kaggle: <a href="https://www.kaggle.com/petermoorhouse"
+                            >@petermoorhouse</a
+                        ></span
+                    >
+                </ul>
+                <ul>
+                    <span
+                        >LinkedIn: <a
+                            href="https://www.linkedin.com/in/pdmoorhouse/"
+                            >in/pdmoorhouse/</a
+                        ></span
+                    >
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .profile-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .profile-img {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #personal-details-container {
+        padding: 10px 0px;
+    }
+
+    #platforms-container {
+        padding: 10px 0px;
+    }
+
+    .profile-text-card {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        min-width: 340px;
+    }
+
+    .profile-text-card ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .vertical-attribute-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vertical-attribute-list ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .vertical-attribute-list li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+
+    .icon {
+        width: 24px; /* or whatever consistent width you want */
+        display: inline-flex;
+        justify-content: center;
+        opacity: 0.8;
+        margin-right: 4px;
+    }
+
+</style>
