@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Profile from '../sections/Profile.astro'
+import FeaturedProjects from '../sections/FeaturedProjects.astro';
+---
+
+<BaseLayout>
+  <div class="main-content">
+    <Profile/>
+    <h2>Featured Projects</h2>
+    <FeaturedProjects/>
+  </div>
+
+</BaseLayout>
+
+<style>
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+</style>
