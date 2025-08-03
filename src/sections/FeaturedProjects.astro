@@ -8,7 +8,7 @@ const featuredProjects = allProjects.filter(p => p.featured);
   {featuredProjects.map(project => (
     <ProjectCard
       href={project.href}
-      imageSrc={project.imageSrc}
+      imageSrc={`${import.meta.env.BASE_URL}${project.imageSrc}`}
       alt={project.alt}
       heading={project.heading}
       caption={project.caption}
