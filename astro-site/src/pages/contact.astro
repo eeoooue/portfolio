@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactMe from '../sections/ContactMe.astro';
+---
+
+<BaseLayout>
+  <div class="main-content">
+    <h2 style="margin: 32px">Contact</h2>
+    <ContactMe/>
+  </div>
+
+</BaseLayout>
+
+<style>
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+</style>
