@@ -1,0 +1,26 @@
+---
+import ProjectCard from '../components/ProjectCard.astro';
+import allProjects from '../data/projects.json';
+
+const featuredProjects = allProjects.filter(p => p.featured);
+---
+<div class="card-container">
+  {featuredProjects.map(project => (
+    <ProjectCard
+      href={project.href}
+      imageSrc={project.imageSrc}
+      alt={project.alt}
+      heading={project.heading}
+      caption={project.caption}
+    />
+  ))}
+</div>
+
+<style>
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+</style>
