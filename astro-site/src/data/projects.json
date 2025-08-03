@@ -1,0 +1,119 @@
+[
+  {
+    "href": "https://www.kaggle.com/competitions/meta-kaggle-hackathon/writeups/discussion-activity-and-competition-success",
+    "imageSrc": "assets/project-thumbs/meta-kaggle-hackathon-thumb.png",
+    "alt": "Discussion Activity & Competition Success",
+    "heading": "Discussion Activity & Competition Success",
+    "caption": "My Meta Kaggle Hackathon entry, which looked into the forum behaviour of top competitors.",
+    "featured": false,
+    "visible": false
+  },
+  {
+    "href": "https://github.com/eeoooue/venn-challenge-24-25/tree/main",
+    "imageSrc": "assets/project-thumbs/venn-thumb.jpg",
+    "alt": "Venn Challenge Thumb",
+    "heading": "Coral Diversity at Reef Sites",
+    "caption": "A Kaggle competition I hosted using a synthetic dataset.",
+    "featured": false,
+    "visible": false
+  },
+  {
+    "href": "https://github.com/eeoooue/venn-challenge-24-25/tree/main",
+    "imageSrc": "assets/project-thumbs/venn-thumb.jpg",
+    "alt": "Venn Challenge Thumb",
+    "heading": "Heads or Tails?",
+    "caption": "A Kaggle competition I hosted, presenting a deliberately imbalanced image dataset.",
+    "featured": false,
+    "visible": false
+  },
+  {
+    "href": "https://github.com/eeoooue/venn-challenge-24-25",
+    "imageSrc": "assets/project-thumbs/venn-thumb.jpg",
+    "alt": "Venn Challenge Thumb",
+    "heading": "The Venn Challenge",
+    "caption": "An AI-collaborative programming competition I ran at university with some friends.",
+    "featured": true,
+    "visible": true
+  },
+  {
+    "href": "https://github.com/eeoooue/networked-cube",
+    "imageSrc": "assets/project-thumbs/netcube-thumb.png",
+    "alt": "Networked Cube",
+    "heading": "Networked Cube",
+    "caption": "A light-hearted networking exercise with a puzzle cube theme.",
+    "featured": true,
+    "visible": true
+  },
+  {
+    "href": "https://eeoooue.github.io/simulated-annealing/",
+    "imageSrc": "assets/project-thumbs/mali-thumb.png",
+    "alt": "Metaheuristic Aligner",
+    "heading": "Metaheuristic Aligner (MAli)",
+    "caption": "A Multiple Sequence Alignment (MSA) tool I developed for my Honours project at university.",
+    "featured": false,
+    "visible": true
+  },
+  {
+    "href": "https://eeoooue.github.io/simulated-annealing/",
+    "imageSrc": "assets/project-thumbs/simulated-annealing-thumb.png",
+    "alt": "Simulated Annealing",
+    "heading": "Simulated Annealing",
+    "caption": "An interactive demonstration of Simulated Annealing, a stochastic optimization algorithm.",
+    "featured": false,
+    "visible": true
+  },
+  {
+    "href": "https://github.com/eeoooue/patterns",
+    "imageSrc": "assets/project-thumbs/patterns-thumb.png",
+    "alt": "Design Patterns",
+    "heading": "Patterns",
+    "caption": "Board game themed interactive examples for six of my favourite 'Gang of Four' design patterns.",
+    "featured": true,
+    "visible": true
+  },
+  {
+    "href": "https://github.com/eeoooue/BirthdayTracker",
+    "imageSrc": "assets/project-thumbs/bday-tracker-thumb.png",
+    "alt": "BirthdayTracker",
+    "heading": "Birthday Tracker",
+    "caption": "A simple Android app for tracking upcoming birthdays.",
+    "featured": false,
+    "visible": true
+  },
+  {
+    "href": "https://eeoooue.github.io/simulated-annealing/",
+    "imageSrc": "assets/project-thumbs/patterns-thumb.png",
+    "alt": "Boggle",
+    "heading": "Boggle",
+    "caption": "The classic word-finding game, implemented as a WPF application using the MVVM architecture pattern.",
+    "featured": false,
+    "visible": false
+  },
+  {
+    "href": "https://github.com/eeoooue/Tempo-Tapper",
+    "imageSrc": "assets/project-thumbs/tempo-tapper-thumb.png",
+    "alt": "Tempo Tapper",
+    "heading": "Tempo Tapper",
+    "caption": "A Chrome extension for finding the tempo of music, in beats per minute.",
+    "featured": false,
+    "visible": true
+  },
+  {
+    "href": "https://github.com/eeoooue/Minesweeper",
+    "imageSrc": "assets/project-thumbs/minesweeper-thumb.png",
+    "alt": "Minesweeper",
+    "heading": "Minesweeper",
+    "caption": "A minimalist Minesweeper game using WPF.",
+    "featured": false,
+    "visible": true
+  },
+  {
+    "href": "https://github.com/eeoooue/Tic-Tac-Toe",
+    "imageSrc": "assets/project-thumbs/patterns-thumb.png",
+    "alt": "Tic-Tac-Toe",
+    "heading": "Tic-Tac-Toe",
+    "caption": "Tic-Tac-Toe game logic and CPU opponents, with front ends in WPF, WinForms and .NET MAUI.",
+    "featured": false,
+    "visible": false
+  }
+]
