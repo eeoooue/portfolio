@@ -1,4 +1,5 @@
 ---
+import MoreProjectsButton from '../components/MoreProjectsButton.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import allProjects from '../data/projects.json';
 
@@ -15,6 +16,8 @@ const featuredProjects = allProjects.filter(p => p.featured);
     />
   ))}
 </div>
+
+<MoreProjectsButton/>
 
 <style>
   .card-container {
