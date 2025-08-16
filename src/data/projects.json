@@ -4,9 +4,9 @@
     "imageSrc": "assets/project-thumbs/meta-kaggle-hackathon-thumb.png",
     "alt": "Discussion Activity & Competition Success",
     "heading": "Discussion Activity & Competition Success",
-    "caption": "My Meta Kaggle Hackathon entry, which looked into the forum behaviour of top competitors.",
+    "caption": "A prize-winning entry into the Meta Kaggle Hackathon, analysing the forum behaviour of top competitors.",
     "featured": false,
-    "visible": false
+    "visible": true
   },
   {
     "href": "https://github.com/eeoooue/venn-challenge-24-25",
@@ -27,7 +27,7 @@
     "visible": true
   },
   {
-    "href": "https://eeoooue.github.io/simulated-annealing/",
+    "href": "https://github.com/eeoooue/hons-moorhouse-p",
     "imageSrc": "assets/project-thumbs/mali-thumb.png",
     "alt": "Metaheuristic Aligner",
     "heading": "Metaheuristic Aligner (MAli)",
