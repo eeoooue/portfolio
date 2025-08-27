@@ -1,5 +1,14 @@
 [
   {
+    "href": "https://github.com/eeoooue/othello",
+    "imageSrc": "assets/project-thumbs/othello-thumb.png",
+    "alt": "Othello",
+    "heading": "Othello",
+    "caption": "A web application for playing Othello against a neural network opponent.",
+    "featured": false,
+    "visible": true
+  },
+  {
     "href": "https://www.kaggle.com/competitions/meta-kaggle-hackathon/writeups/discussion-activity-and-competition-success",
     "imageSrc": "assets/project-thumbs/meta-kaggle-hackathon-thumb.png",
     "alt": "Discussion Activity & Competition Success",
@@ -105,6 +114,6 @@
     "heading": "Tic-Tac-Toe",
     "caption": "Tic-Tac-Toe game logic and CPU opponents, with front ends in WPF, WinForms and .NET MAUI.",
     "featured": false,
-    "visible": true
+    "visible": false
   }
 ]
