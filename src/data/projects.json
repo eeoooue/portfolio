@@ -4,7 +4,7 @@
     "imageSrc": "assets/project-thumbs/othello-thumb.png",
     "alt": "Othello",
     "heading": "Othello",
-    "caption": "A web application for plauing Othello against a neural network opponent.",
+    "caption": "A web application for playing Othello against a neural network opponent.",
     "featured": false,
     "visible": true
   },
